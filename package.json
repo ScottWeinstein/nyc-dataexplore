@@ -1,0 +1,26 @@
+{
+  "name": "nypd",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "savadata.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.2",
+    "modern-async": "^2.0.0",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.17"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 120
+  }
+}
